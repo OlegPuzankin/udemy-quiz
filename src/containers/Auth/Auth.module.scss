@@ -1,0 +1,34 @@
+.Auth {
+    display: flex;
+    justify-content: center;
+    /*//flex-direction: column;*/
+    padding-top: 50px;
+    width: 100%;
+    flex-grow: 1;
+    background: linear-gradient(90deg, lightblue 50%, #ffdd99 60%, #f79cbd 100%);
+
+    div{
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 600px;
+        padding: 0 15px;
+    }
+
+    h2{
+        text-align: center;
+        color: #fff
+    }
+}
+
+.AuthForm{
+    background:#eee;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.Buttons{
+    text-align: center;
+}
+
+
